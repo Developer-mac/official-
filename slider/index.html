@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <embed src="Believe.mp3"autostart="true" 
+  hidden="false"loop="false"> 
+   <noembed><bgsound src="believe.mp3"
+   loop="1"></noembed>
+    <style>
+      * {
+        box-sizing: border-box
+      }
+      body {
+  background-image: url("img27.jpg");
+   background-repeat: no-repeat;
+  background-position: center-top;
+    margin: 200px;
+  background-attachment: fixed;
+}
+      body {
+        font-family: Lucida Calligraphy, sans-serif;
+        margin: 0
+      }
+      .mySlides {
+        display: none
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a blue background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      /* Caption text */
+      .text {
+        color: purple;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      /* Number text (1/45 etc) */
+      .numbertext {
+        color: purple;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: powderblue;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active,
+      .dot:hover {
+        background-color: blueviolet;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+    </style>
+  </head>
+  <center><mark><h1 style="color:blue;">#JONIE WORKS</h1></mark></center>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 45</div>
+        <img src="1.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 45</div>
+        <img src="2.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 45</div>
+        <img src="3.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 45</div>
+        <img src="4.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 45</div>
+        <img src="5.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 45</div>
+        <img src="6.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 45</div>
+        <img src="7.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 45</div>
+        <img src="8.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 45</div>
+        <img src="9.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 45</div>
+        <img src="10.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">11 / 45</div>
+        <img src="11.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">12 / 45</div>
+        <img src="12.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">13 / 45</div>
+        <img src="13.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">14 / 45</div>
+        <img src="14.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">15 / 45</div>
+        <img src="15.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">16 / 45</div>
+        <img src="16.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">17 / 45</div>
+        <img src="17.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">17 / 45</div>
+        <img src="17.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">18 / 45</div>
+        <img src="18.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">19 / 45</div>
+        <img src="19.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">20 / 45</div>
+        <img src="20.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">21 / 45</div>
+        <img src="21.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">22 / 45</div>
+        <img src="22.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">23 / 45</div>
+        <img src="23.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">24 / 45</div>
+        <img src="24.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">25 / 45</div>
+        <img src="25.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">26 / 45</div>
+        <img src="26.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">27 / 45</div>
+        <img src="27.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">28 / 45</div>
+        <img src="28.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">29 / 45</div>
+        <img src="29.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">30 / 45</div>
+        <img src="30.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">31 / 45</div>
+        <img src="31.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">32 / 45</div>
+        <img src="32.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">33 / 45</div>
+        <img src="33.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">34 / 45</div>
+        <img src="34.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">35 / 45</div>
+        <img src="35.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">36 / 45</div>
+        <img src="36.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">37 / 45</div>
+        <img src="37.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">38 / 45</div>
+        <img src="38.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>      
+      <div class="mySlides fade">
+        <div class="numbertext">39 / 45</div>
+        <img src="39.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">40 / 45</div>
+        <img src="40.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">41 / 45</div>
+        <img src="41.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">42 / 45</div>
+        <img src="42.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">43 / 45</div>
+        <img src="43.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">44 / 45</div>
+        <img src="44.jpg" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">45 / 45</div>
+        <img src="45.png" style="width:100%">
+        <div class="text">nice looks</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span>
+      <span class="dot" onclick="currentSlide(12)"></span>
+      <span class="dot" onclick="currentSlide(13)"></span>
+      <span class="dot" onclick="currentSlide(14)"></span>
+      <span class="dot" onclick="currentSlide(15)"></span>
+      <span class="dot" onclick="currentSlide(16)"></span>
+      <span class="dot" onclick="currentSlide(17)"></span>
+      <span class="dot" onclick="currentSlide(18)"></span>
+      <span class="dot" onclick="currentSlide(19)"></span>
+      <span class="dot" onclick="currentSlide(20)"></span>
+      <span class="dot" onclick="currentSlide(21)"></span>
+      <span class="dot" onclick="currentSlide(22)"></span>
+      <span class="dot" onclick="currentSlide(23)"></span>
+      <span class="dot" onclick="currentSlide(24)"></span>
+      <span class="dot" onclick="currentSlide(25)"></span>
+      <span class="dot" onclick="currentSlide(26)"></span>
+      <span class="dot" onclick="currentSlide(27)"></span>
+      <span class="dot" onclick="currentSlide(28)"></span>
+      <span class="dot" onclick="currentSlide(29)"></span>
+      <span class="dot" onclick="currentSlide(30)"></span>
+      <span class="dot" onclick="currentSlide(31)"></span>
+      <span class="dot" onclick="currentSlide(32)"></span>
+      <span class="dot" onclick="currentSlide(33)"></span>
+      <span class="dot" onclick="currentSlide(34)"></span>
+      <span class="dot" onclick="currentSlide(35)"></span>
+      <span class="dot" onclick="currentSlide(36)"></span>
+      <span class="dot" onclick="currentSlide(37)"></span>
+      <span class="dot" onclick="currentSlide(38)"></span>
+      <span class="dot" onclick="currentSlide(39)"></span>
+      <span class="dot" onclick="currentSlide(40)"></span>
+      <span class="dot" onclick="currentSlide(41)"></span>
+      <span class="dot" onclick="currentSlide(42)"></span>
+      <span class="dot" onclick="currentSlide(43)"></span>
+      <span class="dot" onclick="currentSlide(44)"></span>
+      <span class="dot" onclick="currentSlide(45)"></span>
+    </div>
+    <marquee behavior="alternate" style "color:purple;" bgcolor="powderblue"loop="-1"
+   scrollamount="10"width="100%">Its always a pleasure to take time and look at the way friends scroll around!!...</marquee>
+<p>desired by mac<p>
+    <script>
+      let slideIndex = 0;
+      let timeoutId = null;
+      const slides = document.getElementsByClassName("mySlides");
+      const dots = document.getElementsByClassName("dot");
+      
+      showSlides();
+      function currentSlide(index) {
+           slideIndex = index;
+           showSlides();
+      }
+     function plusSlides(step) {
+        
+        if(step < 0) {
+            slideIndex -= 2;
+            
+            if(slideIndex < 0) {
+              slideIndex = slides.length - 1;
+            }
+        }
+        
+        showSlides();
+     }
+      function showSlides() {
+        for(let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+          dots[i].classList.remove('active');
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].classList.add('active');
+         if(timeoutId) {
+            clearTimeout(timeoutId);
+         }
+        timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
+      }
+    </script>
+  </body>
+</html>
