@@ -4,11 +4,11 @@ $name = $_POST['name']:
 $email = $_POST['email']:
 $message = $_POST['message']:
 
-$mailheaeder = "From:" .$name."<" .$email. ">\r\n";
+$mailheader = "From:" .$name."<" .$email. ">\r\n";
 
 $recipient = "developermac24@gmail.com"
 
-mail($recipient, $subject, $message, $mailheaeder)
+mail($recipient, $message, $mailheader)
 or die("Error");
 
 echo '
